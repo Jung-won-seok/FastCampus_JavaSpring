@@ -19,8 +19,6 @@ public class PersonVO {
         this.phone = phone;
     }
 
-
-
     // setter method
     public void setName(String name){
         this.name=name;
@@ -31,6 +29,7 @@ public class PersonVO {
     public void setPhone(String phone){
         this.phone=phone;
     }
+
     // getter method
     public String getName(){
         return name; // this.name
@@ -40,5 +39,9 @@ public class PersonVO {
     }
     public String getPhone(){
         return phone; // this.name
+    }
+
+    public String toString(){
+        return name+"\t"+age+"\t"+phone;
     }
 }
